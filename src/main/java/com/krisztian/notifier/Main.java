@@ -22,6 +22,7 @@ public class Main {
         List<String> collectedLinks = new ArrayList<>();
         Timer timer = new Timer();
         timer.schedule(new TimerTask() {
+
             @Override
             public void run() {
                 try {

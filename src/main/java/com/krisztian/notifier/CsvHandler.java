@@ -33,7 +33,7 @@ public final class CsvHandler {
         } catch (IllegalArgumentException e) {
             LOGGER.warn("Exception during the {} file reading: {}", PROVIDERS_CSV_FILE, e.getMessage());
         } catch (IOException e) {
-            LOGGER.error("Error occurred during the {}  file reading. Teh application is stopping. ", PROVIDERS_CSV_FILE, e);
+            LOGGER.error("Error occurred during the {}  file reading. Teh application is stopping.", PROVIDERS_CSV_FILE, e);
             throw e;
         }
         return sourcePageDescriptorList;
