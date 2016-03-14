@@ -7,7 +7,6 @@ import java.io.IOException;
 import java.time.ZonedDateTime;
 import java.util.*;
 
-
 /**
  * Created by uflik on 2/1/16.
  */
@@ -31,7 +30,7 @@ public class Main {
                             collectedLinks.add(str);
                         }
                     }
-                    System.out.println(collectedLinks.size());
+                    System.out.println("Number of collected links:" + collectedLinks.size());
                 } catch (IOException e) {
                     LOGGER.error("Error during the application running: ", e);
                 }

@@ -24,7 +24,7 @@ public final class Collector {
     public static List<String> collect() throws IOException {
         List<String> collectedLinks = new ArrayList<>();
         for (SourcePageDescriptor sPD : CsvHandler.getSourcePageDescriptorListFromCsv()) {
-            LOGGER.info("-----------------------{}-----------------------", sPD.getId());
+            LOGGER.info("------------------------{}------------------------", sPD.getId());
             collectedLinks.addAll(collectLinksBySourceDescriptor(sPD));
         }
         return collectedLinks;
@@ -50,6 +50,7 @@ public final class Collector {
             linkCollection.add(link.attr(ABS_HREF));
         }
         LOGGER.info("Links from page: {} collected", sPD.getFindingPageUrl());
+
         return linkCollection;
     }
 
