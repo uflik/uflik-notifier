@@ -23,6 +23,8 @@ public class Main {
         Timer timer = new Timer();
         timer.schedule(new TimerTask() {
 
+        MailSender.send("TEST");
+
             @Override
             public void run() {
                 try {
