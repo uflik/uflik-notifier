@@ -1,3 +1,3 @@
 ID,URL,AD_SELECTOR,NEXT_PAGE_SELECTOR
 Ingatlan.com,http://ingatlan.com/szukites/elado+lakas+iv-ker+v-ker+xiii-ker+10-15-mFt+45-m2-felett+2-szoba-felett,tr > td[class=address] > a,a[class=button next]
-Jófogás.hu,http://www.jofogas.hu/budapest/xiii-kerulet/ingatlan?min_price=12000000&max_price=15000000&st=s,div > a[class=subject], li > a[class=ad-list-pager-item ad-list-pager-item-next active-item js_hist_li js_hist jofogasicon-right]
+Jófogás.hu,http://www.jofogas.hu/budapest/xiii-kerulet/ingatlan?min_price=12000000&max_price=15000000&st=s,div > a[class=subject]                   li > a[class=ad-list-pager-item ad-list-pager-item-next active-item js_hist_li js_hist jofogasicon-right]
